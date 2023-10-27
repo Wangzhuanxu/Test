@@ -1,0 +1,104 @@
+# system
+.DS_Store
+
+# unity project
+Library
+obj
+/nextcode/*
+AssetBundles
+/Assets/TextMesh Pro/Examples & Extras*
+
+# ls project
+/Assets/StreamingAssets/*
+!/Assets/StreamingAssets/AndroidRender.cfg.meta
+!/Assets/StreamingAssets/AndroidRender.cfg
+!/Assets/StreamingAssets/lua
+!/Assets/StreamingAssets/tut02.mp4
+!/Assets/StreamingAssets/dresversion.txt
+!/Assets/StreamingAssets/version.txt
+!/Assets/StreamingAssets/config.db
+*.log
+*.log.meta
+*.pyc
+
+# vs files
+.vs/
+.vscode/
+*.csproj
+*.sln
+*.userprefs
+
+# android files
+*.apk
+*.obb
+*.symbols.zip
+
+# android studio
+.gradle/
+.idea/
+/proj_temp
+/proj_android/LS-unity/.gradle
+!/proj_android/LS-unity/src/main/AndroidManifest.xml
+!/proj_android/LS-unity/src/main/assets/emoji
+!/proj_android/LS-unity/src/main/assets/fonts
+!/proj_android/LS-unity/gradle/wrapper/gradle-wrapper.properties
+!/tools/protoc_win/protoc.exe
+
+# xcode
+/proj_ios/Classes/Native/*
+/proj_ios/Data/*
+
+# legacy file
+/Assets/ConsolePro*
+/Assets/GameFramework*
+/Full
+/Package
+/Packed
+/Working
+/BuildReport
+
+# tool
+tools/MakeTable/project/MakeTable/bin/*
+!tools/MakeTable/project/MakeTable.sln
+!tools/MakeTable/project/MakeTable/MakeTable.csproj
+!tools/MakeTable/gen/result/result.log
+
+tools/MakeConfig/project/MakeTable/bin/*
+!tools/MakeConfig/project/MakeTable.sln
+!tools/MakeConfig/project/MakeTable/MakeTable.csproj
+!tools/MakeConfig/gen/result/result.log
+
+project/LuaDebug.lua
+project/Assets/Plugins/ConsoleE/ConsoleE/Editor/ConsoleE.dll.meta
+project/Assets/Plugins/ConsoleE.meta
+project/Assets/Plugins/ConsoleE/ConsoleE.meta
+project/Assets/Plugins/ConsoleE/ConsoleE/Editor.meta
+project/Assets/Plugins/ConsoleE/ConsoleE/Editor/Internal.meta
+project/.vsconfig
+project/project.sln.DotSettings.user
+
+project/Assets/ThirdPart/GreateWorld/Editor
+project/Assets/ThirdPart/GreateWorld/HoudiniEngineUnity
+project/Assets/ThirdPart/GreateWorld/Scripts
+project/Assets/ThirdPart/GreateWorld/Editor.meta
+project/Assets/ThirdPart/GreateWorld/HoudiniEngineUnity.meta
+project/Assets/ThirdPart/GreateWorld/Scripts.meta
+project/heu_session.txt
+project/Assets/ThirdPart/GreateWorld/Res/HDA.meta
+project/Assets/ThirdPart/GreateWorld/Res/Brushes.meta
+project/Assets/ThirdPart/GreateWorld/Res/HDA
+project/Assets/ThirdPart/GreateWorld/Res/Brushes
+project/Assets/Editor/AmplifyShaderEditor
+project/Assets/Editor/AmplifyShaderEditor.meta
+MapEditor/Temp/
+project/Assets/Firebase.meta
+project/Assets/Main.meta
+project/Assets/Editor/unity-profiler-data-exporter-master.meta
+project/Assets/Editor/unity-profiler-data-exporter-master/Allocators.meta
+project/Assets/Editor/unity-profiler-data-exporter-master/Factories.meta
+project/Assets/Editor/unity-profiler-data-exporter-master/StatsCalculator.meta
+project/Assets/Editor/unity-profiler-data-exporter-master/UnityWrappers.meta
+project/Assets/Editor/unity-profiler-data-exporter-master/Utils.meta
+project/Assets/Firebase/Plugins.meta
+project/Assets/Main/DataTable.meta
+project/Assets/Shelter/Arts/Scene/MainScene/Surface/B_transparent_001/Fbx/Storage_tank_A_slice.fbm.meta
